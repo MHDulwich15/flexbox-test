@@ -1,0 +1,1 @@
+In this project, I will be recreating a website screenshot from The Odin Project using flexbox.

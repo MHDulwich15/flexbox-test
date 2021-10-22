@@ -7,10 +7,13 @@ body {
     display: flex;
 }
 
-.header h1 {
+h1 {
+    display: flex;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    justify-content: space-around;
+    align-self: center;
 }
 
 .header h3 {
@@ -18,17 +21,23 @@ body {
     color: #F9FAF8;
 }
 
-.header p, a{
+a{
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 100;
     text-decoration: none;
 }
 
-
-ul {
+.header ul
+{
+    display: flex;
     list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+
 
 
 

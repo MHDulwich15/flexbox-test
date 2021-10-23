@@ -18,5 +18,58 @@ body {
 }
 
 .header-links {
+    display: block;
+}
 
+.header-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-links ul a {
+    display: block;
+    padding: 5px;
+    margin: auto 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-and-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 90px 0;
+    margin: auto;
+}
+
+.intro {
+    display: block;
+    max-width: 35%;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-image {
+    display: block;
+    max-width: 35%;
+    height: auto;
+    width: auto;
+    flex-grow: 1;
 }
